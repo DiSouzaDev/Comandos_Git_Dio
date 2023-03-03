@@ -22,6 +22,6 @@ Alterar dados dentro de uma blob altera os metadados da árvore, que pode mudar 
 
 Chave SSH - Uma forma de estabelecer uma conexão segura e estável entre duas máquinas, com uma chave pública e uma primária
 
-ssh-keygen -t ed25519 "-c diogosouzabarbosa@hotmail.com" -- Comando de criação de chaves
+ssh-keygen -t ed25519 -c diogosouzabarbosa@hotmail.com -- Comando de criação de chaves
 
-$ eval $(ssh-agent -s)
+$ eval $(ssh-agent -s)  -- confirmando a nova chave ssh
