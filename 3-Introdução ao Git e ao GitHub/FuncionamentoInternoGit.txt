@@ -1,0 +1,27 @@
+openssl sha1 nome.txt - demonstra o codigo hash gerado pelo Git
+--stdin - Enviando text ao invés de um repositório
+
+O git armazena os arquivos fazendo um SHA (criptografando-os), mas também guarda metadados por objetos
+Blob: Mostra o tamanho
+\0
+Guarda: O conteúdo salvo
+
+Tree: <tamanho>
+\0 <-- Aponta para um outra tree ou Blob
+Guarda: Blob / o nome de um arquivo
+
+Commit: <tamanho>
+Aponta para:
+tree
+parente
+autor
+mensagem "Conteúdo..."
+timestamp <-- Carimbo de tempo, data e hora que foi criado
+
+Alterar dados dentro de uma blob altera os metadados da árvore, que pode mudar o commit
+
+Chave SSH - Uma forma de estabelecer uma conexão segura e estável entre duas máquinas, com uma chave pública e uma primária
+
+ssh-keygen -t ed25519 "-c diogosouzabarbosa@hotmail.com" -- Comando de criação de chaves
+
+$ eval $(ssh-agent -s)

@@ -1,0 +1,56 @@
+Métodos ágeis
+Seus quatro valores:
+1 Indivíduos e interações - mais que processos e ferramentas
+2 Software em funcionamento - mais que documentação abrangente
+3 Colaboração com o cliente - mais que negociação de contratos
+4 Responder a mudanças - mais que seguir um plano
+
+Processo - É recorrente e continuo, replicável e geralmente repetitivo, realizafo regularmente
+Projeto - Um esforço temporário para atingir um objetivo, com resultado exclusivo e início e fim bem definidos
+
+Modelo cascata - depende que a etápa anterior esteja finalizada para avançar para a próxima
+Modelo ágil com Scrum - incremente valor ao produto por meio de sprints regulares até a finalização do produto
+
+Bases do Scrum:
+Empirismo e Learn Thinking
+
+Pilares do Scrum:
+Transparência
+Inspeção
+Adaptação
+
+Extreme Programming (XP)
+
+Objetivo principal: fazer ciclos de entregas rápidos, contínuos e incrementais, para atingir os resultados esperados pelo cliente.
+
+Kanban
+É um método para definir, gerenciar e melhorar serviços que entregam trabalhos de conhecimento
+Pode ser usado junto com o Scrum, ou outras tecnologias
+
+OKR (Objectives Key results)
+
+Descrições qualitativas que apontam que direção deverá ser seguida pela empresa
+- Claro
+- Inspirador
+- Desafiador
+- Alinhado com a missão do negócio
+
+As metas tem que ser baseados em indicadores-chave de desempenho
+Quantitativas
+SMART: Específicas, Mensuráveis, Atingíveis, Relevantes e Temporais
+
+Beneficios: 
+Agilidade
+Cooperação
+Transparência
+Monitoramento contínuo
+
+Ferramentas para gestão ágil de projetos:
+Trello
+Notion Miro
+Monday
+EasyRetro
+Jira
+Clickup
+Pipefy
+Asana

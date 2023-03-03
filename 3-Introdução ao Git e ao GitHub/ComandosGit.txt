@@ -1,0 +1,11 @@
+git init -- começa a gerenciar e a vercionar nosso código
+flag -a -- mostra arquivos ocultos
+git add * -- adiciona tudo dentro do commit
+git commit -m "commit inicial" -- Para fazer o commit e para explicar o que foi feito
+git status -- mostra em que situação está o arquivo
+git restore -- retorna as modificações para o modo unstage
+
+git remote add origin "link aqui" -- localiza o repositório do github
+git push origin master -- Empurra o arquivo para o repositório github
+git pull origin master -- Puxa o arquivo para mais recente do repositório github
+git clone "url" -- faz um clone do seu repositório do github

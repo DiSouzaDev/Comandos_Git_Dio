@@ -1,0 +1,56 @@
+Variáveis
+É utilizada para definir um ou mais valores que são manipulados pelos programas durante a sua operação.
+É uma estrutura mútavel e inconstante que pode modificar seus próprios valores.
+Não sabe que valor irá receber mas sabe o tipo. Ela está restrita ao seu tipo.
+Tipos de variáaveis:
+Numérica - Todos os números existentes (incluindo os negativos)
+Caracteres - Tudo aquilo que não definimos como números. Pode ser qualquer letra ou símbolo do seu teclado. Um número também pode ser um caractére.
+Lógico ou Booleano - Possui apenas dois resultados: verdadeiro (1, V) e falso (0, F)
+
+Boas práticas para nomear uma variável:
+Mais de um caractere
+primeira letra não número
+sem espaço em branco
+É vedado usar palavras reservadas da linguagem de programação ao qual estiver usando
+
+Papéis da variável:
+Ação - Modifica o estado do algoritimo
+Controle - Utilizada para controle de alguma estrutura dentro do algoritmo
+
+Conatantes - Algo que não muda, que tem constancia.
+
+Instruções primitivas
+Determina as ações que iremos executar em cima de nossos dados por meio de variáaveis ou constantes
+São as intruções básicas de uma linguagem de programação.. Cada uma pode conter sua própria sintaxe.
+Os valores podem ser Binários ou unários.
+
+Estruturas condicionais
+Expressa uma condição para ser satisfeita para executar determinada ação, caso não seja, executa uma excessão
+Tipos de operadores relacionais:
+Simples - expõe que uma instrução ou bloco de instruções só sejam executados se determinada condição for verdadeira
+Composta - expõe que uma instrução ou bloco de instruções só sejam executados se determinada condição for satisfeita
+Encadeada - uma estrutura de condição é colocada dentro de outra, como bloco verdadeiro ou falso. Para que a estrutura de condição mais interna seja avaliada, é necessário que uma determinada condição seja satisfeita na estrutura de condição mais externa.
+Operadores relacionais:
+=  - Igual
+<> - Diferente de
+>  - Maior que
+<  - Menor que
+>= - Maior ou igual a
+<= - Menor ou igual a
+
+Operadores lógicos:
+And, or, not
+
+Estruturas de Repetição
+Torna possível um determinado dado ser processado mais de uma vez com diferentes valores a partir e certos parâmetros dentro da estrutura, com uma condição de parada
+Reduz excesso de linhas e poluição de código
+Exemplos: for, while
+
+Vetor ou matriz
+sequência de tipos de dados, com uma sequência pré fixada que irá receber n valores
+Necessita de um índice para localizar determinada informação dentro da matriz
+Otimização de código
+
+Funções
+A partir de um argumento que receber, irá te retornar um valor. Realizam tarefas específicas que podem ser chamadas dentro do seu código
+Pode ser utilizado a reutilização de código, deixando-o mais limpo

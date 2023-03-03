@@ -1,0 +1,18 @@
+A lógica vem para solucionar e resolver algum problema.
+
+Um problema é algo que foje de uma determinada regra que te impede de atingir seu objetivo com eficácia.
+
+Ou seja, lógica é uma forma de pensamento extruturada que te auxilia a determinar o que é verdadeiro ou não, de forma coesa.
+
+Usamos lógica na programação para:
+Organizar as intruções de uma maneira assertiva por meio de um algorítmo, para executar as funcionalidades de um programa.
+
+Algumas técnicas de lógica de programação:
+Técnica Linear - Modelo de desenvolvimento e resolução de problemas
+Execução sequenciada de uma série de ações a serem executadas e que possuem dependências entre si.
+
+Técnica Extruturada - Modelos de desenvolvimento e resolução
+Execução de uma série de ações a serem seguidas com diferentes opções, sendo controladas por um conjunto de regras.
+
+Técnica Modular - Modelos de desenvolvimento e resolução
+Partes independentes controladas por um conjunto de regras, com cada módulo tendo seu próprio conjunto de regras.

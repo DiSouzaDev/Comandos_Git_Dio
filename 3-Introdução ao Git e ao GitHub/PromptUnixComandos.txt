@@ -1,0 +1,21 @@
+Sistema Windows Comandos:
+dir - Mosta a localização no repositório
+cd - Muda de diretório
+cd .. - Retorna um repositório
+cls - Limpa o terminal
+mkdir - Cria uma pasta
+echo - Printa no terminal uma frase que escrevermos
+> redireciona e cria um novo arquivo onde quiser
+del - deleta um arquivo
+rmdir - deleta todo o repositório
+
+Sistema Unix Comandos:
+ls - Mosta a localização no repositório
+cd - Muda de diretório
+cd .. - Retorna um repositório
+clear ou Ctrl + R - Limpa o terminal
+sudo su - Permição para criar pastas
+mkdir - Cria uma pasta
+echo - Printa no terminal uma frase que escrevermos
+> redireciona e cria um novo arquivo onde quiser
+rm -rf - Deleta todo o repositório

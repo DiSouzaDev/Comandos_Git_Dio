@@ -1,0 +1,32 @@
+Decomposição
+Como decompor?
+identificar dados
+segmentar os dados
+finalidade
+
+Buscar como se faz ou como algo funciona, passo a passo, para coletae 
+segmentar os dados, eventualmente solucionando problemas.
+
+Padrões
+Padrões são estruturas ou modelos que possuem uma repetição lógica
+podem aher algumas diferenças entre cada um, mas existe uma lógica por trás
+
+Como um humano determina padrões: grau de similaridade pautado pelo próprio conhecimento, utiliza sua objetividade.
+Como um computador determina padões: Pelo recolhimento de dados, ele é ensinado a filtrar os padrões e por fim "aprender" com os novos dados coletados.
+
+Abstração
+Abstrair - observar um ou mais elementos e avaliar suas caracteristicas em separado.
+Abstração - isolar um objeto da realidade, realocando-o para o mundo das idéias (mundo abstrato)
+
+Generaizar - reunir em uma classe um conjunto de seres ou fenômenos similares.
+
+Algoritmos - são programs interpretados pelos computadores, que por sua vez são uma série de Instruções pré-determinadas para  que o computador execute.
+é preciso ser legível tanto pelo ser humano quanto pela máquina.
+Descreve problemas e é criado por meio de alguma linguagem de programação.
+Para construir um algoritmo:
+Comreender o problema
+definir dados de entrada
+definir o processamento
+definir os dados de saída
+utilizar um metodo de construção
+realizar os testes necessários
