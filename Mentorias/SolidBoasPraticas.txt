@@ -1,0 +1,54 @@
+Código limpo
+Legibilidade - Facil de ler e entender, com nomes definidos e descritivos. Ajuda na correção de erro
+Padrões - definir e seguir padrões de desenvolvimento.
+Separar configurações de codigo fonte - evita confusão e facilita no momento de fazer alterações
+Evitar repetições: se algo já foi feito em algum momento, deveria ser reutilizado e não copiado.
+Cuidado com comentário - o codigo se modifica com o tempo então o comentário pode não condizer mais
+tratamento de erros - erros inesperados imactam a usabilidade e funcionamento do sistema.
+desenvolver testes limpos:
+Rápido - testes executados repetidamente precisam ser ageis
+idependente - não pode impactar o sistema inteiro como um efeito cascata
+passivel de validação - deve retornar respostas verdadeiras e falsas para ser objetivo
+
+Solid
+É baseado nos 5 principios da POO.
+Ajudar a manter o código mais limpo
+
+Single responsibility principle (Principio da responsabilidade única)
+Open closed principle (Princípio do aberto e fechado)
+Liskov substitution principle (Princípio da substituição de Liskov)
+Interface segregation principle (Princípio da segregação de interfaces)
+Dependency inversion principle (Princípio da inversão de dependências)
+
+S - Uma classe deve ter um, e somente um motivo, para mudar. uma classe deve ter apenas uma única responsabilidade.
+
+Benefícios da prática:
+Facilidade de manutenção
+Codigo limpo e de facil entendimento
+Facilidade de desenvolvimeto de testes
+Redução de acoplamento
+Complexidade reduzida
+
+I - Você deve ser capaz de estender o comportamento de uma classe sem precisar modifica-la. Não altere algo que está funcionando bem.
+
+Beneficios:
+
+L - As classes derivadas devem poder ser substituídas por sua classe base
+
+Ao definir que uma classe será herdada por outra sempre pense nesses pontos de atenção:
+Todas as implementações do metodo da classe pai fazem sentido para a classe filho?
+As condições de entrada dos metodos da classe filho se encaixam com a classe pai?
+E as condições de saída?
+Nós não podemos garantir que a classe ou mpetodo que usará nosso códgigo irá tratar possiveis erros
+
+I - Crie interfaces granulares e específicas para seus clientes. clientes não devem ser forçados a depender de interfaces que eles não usam.
+
+D - Dependa de abstrações e não de implementações. As abstrações mudam menos, facilitam as mudanças de comportamento e as evoluluçoes de código.
+
+Em outras palavras, os módulos que são classes de alto nível devem depender de conceitos, também chamadas de abstrações independente de como funcionam, ou seja, a função da inversão de dependência faz com que os softwares se desassociem dos módulos.
+
+Livros de referência:
+Código limpo
+Agile software development
+Arquitetura limpa
+Domain driver design

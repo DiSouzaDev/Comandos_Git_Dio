@@ -1,0 +1,7 @@
+Ctrl + N = Lupa que pode ser usada para criar o método constritor, getters e setters.
+
+Selecionar um bloco e apertar alt + setas - move um bloco de código
+Ctrl + Shift + F - Organiza o código
+Ctrl + Shift + O - Importa automaticamente uma biblioteca solicitada
+Ctrl + Alt + seta - duplica o código selecionado
+Ctrl + Shift + T - nome da classe que quer encontrar

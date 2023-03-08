@@ -1,0 +1,10 @@
+Ctrl + Shift + F10 - Atalho para rodar o programa
+Ctrl + alt + L - Organiza o código
+Ctrl + D - Duplica a linha selecionada
+Ctrl + Shift + setas - move um bloco de código selecionado
+Alt + insert - Atalho que abre os métodos construtor, getters and setters, etc
+Ctrl + K - Abre o commit direto (orecisa ter sido configurado anteriormente)
+Ctrl + Shift + K - Faz o push direto
+Ctrl + N - pesquisa classes
+
+Base F - Site com os atalhos do InteliJ
