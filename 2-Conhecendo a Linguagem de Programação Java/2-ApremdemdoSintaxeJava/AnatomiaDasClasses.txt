@@ -1,0 +1,14 @@
+Variáveis todas maipusculas tendem a der final e não deverão sofrer alterações.
+Métodos costumam ser nomeados no infinitivo.
+Uma variável deve sempre ser escrita no singular, exceto quando se refere uma array ou matriz
+Tipos primitivos de variáveis:
+int, byte, short, long, float, double, boolean, char
+
+Escopo
+Pode ser entendido como o ambiente onde uma variável pode ser acessada. Em Java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.
+
+Documentação
+javadoc-ecoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/*.java -- Documenta uma classe
+
+Terminal e argumentos
+Java Nome_da_classe "parâmetros caso precise adicionar" -- Roda uma classe pelo terminal

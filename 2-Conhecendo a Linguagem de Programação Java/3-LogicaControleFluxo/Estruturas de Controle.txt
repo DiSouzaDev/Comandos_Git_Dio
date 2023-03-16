@@ -1,0 +1,11 @@
+São estruturas que tem a capacidade de direcionar o fluxo de execução do código.
+
+Tipos:
+Decição: if, if else, if else if, switch e operador ternário
+Repetição: for, while, do while
+Interupção: break, continue e return
+
+Se você tem só uma variável envolvida, use o switch.
+Caso tenha mais de uma variável, use if.
+
+Criar variáveis intermediárias para não possuir muitos ifs

@@ -1,0 +1,47 @@
+Principais conceitos da nuvem:
+
+Mobilidade e multiplataforma - capacidade de acessar os recursos da nuvem através de qualquer dispositivo com internet, independente da plataforma.
+Segurança - Conceito em todos os esforços - Do provedor da nuvem, ao oferecer criptografia, redes privadas gerenciamento de acesso, etc.
+- Time de governança, ao buscar orientar sobre uso das tecnologias pelos outros times
+
+Escalabilidade e Disponibilidade
+Disponibilidade - Permitir que a infraestrutura continue funcionando mesmo que ocorra alguma falha.
+
+Virtualização e Pay-Per-Use
+
+modelos de nuvens
+LaaS (Infraestructure as a Service) - Infraestrutura como serviço
+A IaaS (infraestrutura como serviço) é um tipo de serviço de computação em nuvem que oferece recursos fundamentais de computação, armazenamento e rede sob demanda e pagos conforme o uso.
+
+PaaS (Plataform as a Service) - Plataforma como serviço
+O PaaS (plataforma como serviço) é um ambiente de desenvolvimento e implantação completo na nuvem, com recursos que permitem a você fornecer tudo, desde aplicativos simples baseados em nuvem até sofisticados aplicativos empresariais habilitados para a nuvem.
+
+SaaS (Software as a Service) - Software como serviço
+SaaS é uma forma de distribuição e comercialização de software. No modelo SaaS, o fornecedor do software se responsabiliza por toda a estrutura necessária à disponibilização do sistema, e o cliente utiliza o software via internet, pagando um valor pelo serviço.
+
+Criação de uma VPC
+Uma rede de nuvem privada virtual (VPC) é uma versão virtual de uma rede física que é implementada dentro da rede de produção do Google usando Andromeda. Uma rede VPC faz o seguinte: Fornece conectividade às suas instâncias de máquina virtual (VM) do Compute Engine.
+
+ela é uma usada para atribuir os recursos criados dentro da amazon
+
+Criação de uma subrede para manter as disponibilidades das nossas aplicações
+Link que ensina a criar uma VPC: https://docs.aws.amazon.com/pt_br/vpc/latest/userguide/working-with-vpcs.html
+Link que ensina a criar uma subrede: https://docs.aws.amazon.com/pt_br/vpc/latest/userguide/configure-subnets.html
+
+Criação de um Elastic Beanstalk
+O Elastic Beanstalk reduz a complexidade de gerenciamento sem restringir as escolhas nem o controle. Basta fazer upload da aplicação e o Elastic Beanstalk automaticamente gerencia os detalhes de provisão de capacidade, balanceamento de carga, escalabilidade e monitoramento do status da aplicação.
+Link para criar uma Beanstalk: https://docs.aws.amazon.com/pt_br/elasticbeanstalk/latest/dg/GettingStarted.CreateApp.html
+
+Criação de um RDS
+O Amazon Relational Database Service é um serviço que facilita a configuração, operação e escalabilidade de um banco de dados relacional na Nuvem AWS fornecendo a capacidade econômica e redimensionável para um banco de dados relacional padrão do setor e gerencia tarefas comuns de administração de banco de dados.
+
+Criação de um Security Group
+Na Amazon há um recurso de segurança muito utilizado, os Security Groups. Os Security Groups funcionam de forma muito semelhante aos firewalls, como o iptables ou o Firewall do Windows, restringindo o acesso aos nossos servidores em determinadas portas e/ou protocolos.
+
+Criação de um Segredo
+O Secrets Manager permite a substituição de credenciais codificadas no seu código, incluindo senhas, por uma chamada de API para o Secrets Manager para recuperar o segredo de forma programática. Isso ajuda a garantir que o segredo não possa ser comprometido por alguém que examine o código, pois o segredo não existe no código.
+
+Criação de uma SQS
+O Amazon Simple Queue Service oferece uma fila hospedada segura, durável e disponível que permite integrar e desacoplar sistemas de software e componentes distribuídos. O Amazon SQS oferece constructos comuns, como filas de mensagens mortas e tags de alocação de custos. Ele fornece uma API de serviço da Web genérica e pode ser acessado por qualquer linguagem de programação compatível com o AWS SDK.
+
+Utilizada para comunicação assincrona

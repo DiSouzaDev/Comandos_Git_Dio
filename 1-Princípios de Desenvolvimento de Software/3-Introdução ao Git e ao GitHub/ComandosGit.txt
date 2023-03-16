@@ -8,4 +8,7 @@ git restore -- retorna as modificações para o modo unstage
 git remote add origin "link aqui" -- localiza o repositório do github
 git push origin master -- Empurra o arquivo para o repositório github
 git pull origin master -- Puxa o arquivo para mais recente do repositório github
-git clone "url" -- faz um clone do seu repositório do github
+git clone "url" -- faz um clone do seu repositd ório do github
+
+Mudar de Master para Main e vice versa:
+git branch -m master main | git branch -m main master
