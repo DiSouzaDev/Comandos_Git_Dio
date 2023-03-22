@@ -1,0 +1,28 @@
+Pilha
+Assim como em uma pilha de livros, o ultimo a entrar na pilha, é o último a sair: Last in First Out (LIFO)
+
+Método Top
+No meuNo = pilha.top(); -- recebe uma cópia do nó no topo da pilha.
+
+Método Pop
+No meuNo = pilha.pop(); -- recebe o nó do topo da pilha e referencia o nó abaixo como primeiro da pilha.
+
+Método Push
+No meuNo = new No();
+meuNo.setInt(1); -- Adiciona um novo nó no topo da pilha e o referencia como primeiro
+
+Método isEmpty -- Aponta se sua pilha está vazia
+public boolean isEmpty(){
+	if(refNo == Null){
+		return true;
+	}
+	return false;
+}
+
+Filas
+Assim como em uma fila, o primeiro que entra é o primeiro que sai: First in first out (FIFO)
+
+Métodos:
+.enqueue() -- Adiciona um novo nó na fila e referencia a entrada da fila como sendo atrás dele
+.dequeue() -- Tira o primeiro da fila e nó anterior é aponta para nulo
+.isEmpty() -- Mostra se a fila está vazia

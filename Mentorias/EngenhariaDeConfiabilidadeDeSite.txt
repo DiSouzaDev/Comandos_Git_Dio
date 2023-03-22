@@ -1,0 +1,47 @@
+O que é um Site Reliability Engineer (SRE)?
+Criado pelo Google em 2003, é uma disciplina que incorpora aspectos da engenharia de software e os aplica em problemas de infraestrutura e operação.
+
+SRE e DevOps: Qual a diferença?
+
+O conceito geral de DevOps compreende todas as práticas que aceleram e automatizam certos aspectos dos processos de desenvolvimento, teste e fornecimento de softwares, sites e aplicações, o que permite entregar continuamente atualizações de segurança. É uma cultura projetada para quebbrar a barreira de informações entre a equipe de Devs e a de Ops.
+
+SRE é uma "implementação específica de DevOps com algumas extenções".
+O SRE tem como objetivos:
+
+1. Reduzir silos organizacionais
+2. Aceitar a falha como normal
+3. Implementar mudanças graduais
+4. Alavancar ferramentas e automação
+5. Medir tudo - Somente através de metricas da para saber o SRE está dentro do que o cliente espera.
+
+Princípios e práticas do SRE:
+
+Operações - Tudo que envolve o funcionamento de um sistema de forma confiável, é um problema de software
+
+Niveis de serviço - Faz as medições dos niveis de serviço
+Monitoramento e indicadores de níveis de serviço:
+
+SLI - O que você está medindo? O que estou realizando atualmente. Ex: 98% dos meus usuários realizam suas tarefas dentro de 1 minuto.
+SLO - O quão bem meu serviço tem que estar para o uso do meu cliente - É dado pela perspectiva do usuário. Ex: pelo menos 90% dos mes usuarios devem realizar suas tarefas dentro de 1 minuto
+	Error Budgeting - serve como uma estrutura para gerenciamento de riscos, visando trazer equilíbrio entre o time de desenvolvimento e os SREs.
+
+SLA - SLO + o que acontece caso não entregue o serviço acordado
+4 sinais de observalibilidade:
+	[Pegar a foto da mentoria]
+
+
+Toil - Intervenção processo anual. Elimina o trabalho manual o máximo possível. Processos ruins devem ser consertados para então ser automatizados.
+
+Automação - Tudo que possa ser automatizado, deve ser automatizado.
+
+Reduzir o custo de falha - Trabalha para ter um ambiente com testes coerentes para reduzir os custos de possíveis falhas que podem ocorrer. Com testes por stress, por exemplo.
+
+Responsabilidade compartilhada - Sempre compartilha a responsabilidade e conhecimento entre as equipes
+
+Pirâmide hierárquica do SRE
+	[Pegar a foto da mentoria]
+
+Livro - engenharia de confiabilidade do Google
+
+
+Implantação canário:
