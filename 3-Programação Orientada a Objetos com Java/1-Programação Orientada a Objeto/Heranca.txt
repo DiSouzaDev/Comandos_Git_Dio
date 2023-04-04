@@ -1,0 +1,58 @@
+É o relacionemanto entre classes em que uma classe chamada de subclasse (Filha ou derivada) é uma expressão, um subtipo de outra classe chamada de superclasse (Pai ou classe base). devido a isso, a subclasse consegue reaproveitar os atributos e métodos dela. A subclasse além de herdar, pode definir seus próprios membros. Uma subclasse não serve apenas para reuso, mas sim para criar subtipos
+
+Java:
+class A extends B {
+	...
+}
+
+
+C#:
+class A : B {
+	...
+}
+
+Python:
+class A(B):
+	...
+
+Tipos de Herança:
+Simples - Uma classe filha tem somente uma classe mãe
+
+Múltipla - Uma classe filha tem mais de uma classe ou mais classes mãe
+
+-Java não possúi
+-C# não possúi
+-Python possúi
+-C++ possúi
+
+Python:
+class A(B,C):
+	...
+
+Upcast - Subir em sua hierarquia de classe (Tipo de dado)
+Como fazer upcast:
+Java:
+A a = new B();
+
+C#:
+A a = new B();
+
+Python não possúi
+
+Downcast - Descer em sua hierarquia de classe (Tipo de dado)
+
+Java:
+B b = (B)new A();
+
+C#:
+B b = (B)new A();
+
+Python não possúi
+
+único caso que ele não dá erro é usando o Object. O recomendável é não usar ele quase nunca.
+
+Polimorfismo - A mesma ação, se comportando diferente.
+Exemplo: um pagamento pode ser processsado de diversas maneiras distintas. O comportamento vai de acordo com o objeto em questão.
+
+Sobrescrita - A mesma ação, podendo se comportando diferente.
+Exemplo: uma conta bancária pode ser de diveroso tipos. Diferentes contas podem não ter os mesmos métodos que as outras.

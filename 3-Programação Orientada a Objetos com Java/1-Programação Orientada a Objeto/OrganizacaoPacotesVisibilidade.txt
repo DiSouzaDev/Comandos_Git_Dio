@@ -1,0 +1,26 @@
+Uma organização física ou lógica para separar classes com responsabilidades distintas. Esperasse com isso que a aplicação fique mais organizada e seja pssível separar classes de finalidades e responsabilidades distintas.
+
+Java:
+package ...;
+import ...;
+
+C#:
+namespace {...}
+using ...;
+
+Python:
+__init__.py até a versão (2.x)
+
+from ...
+import ...
+
+Visibilidades
+Um modificador de acesso tem como finalidade determinar até que ponto uma classe, atributo ou método pode ser usado. A utilização de modificadores de acesso é fundamental para o uso efetivo da Orientação a Objetos.
+Private - Só dentro da classe
+Tudo que for definido dentro da classe só será visível dentro da classe em que foi definido.
+
+Protected - Dentro da classe, mesmo pacote e subclasses
+Pode ser visualizada dentro da classe, do pacote onde a classe se encontra e nas subclasses.
+
+Public - Em qualquer lugar
+Ele será visível em qualquer lugar da sua aplicação, sem nenhuma restrição.

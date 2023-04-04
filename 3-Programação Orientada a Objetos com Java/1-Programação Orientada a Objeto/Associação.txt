@@ -1,0 +1,18 @@
+Possibilita um relacionamento entre classes/objetos, no qual esses possam pedir ajuda a outras classes/objetos e representat de forma completa o conceito ao qual se destinam. Neste tipo de relacionamento, as classes e os bjetos interagem entre si para atingir seus objetivos.
+
+Tipos de associação:
+Estrutural - Se manifesta na estrutura das classes e objetos, em seus atributos.
+-Composição
+Com parte todo - Uma parte só existe com um todo. Se a parte maior deixar de existir, a parte também deixa. Ex: Pessoa e endereço
+
+-Agregação
+Sem parte todo. Uma parte pode existir sem um todo. Se uma parte deixar de existir, a outra não vai necessariamente desaparecer. Ex: Disciplina e aluno
+
+Coportamental - Se manifesta no comportamento da estrutura, em seus métodos.
+-Dependência
+Depende de - Um parte de pende de outra para funcionar, apenas se for requisitada.
+
+Herança é mais rígida
+Associação é menos rígida e mais mutável
+
+Para entender um pouco cquando usar, basta pensar: Uma coisa é a outra? Se sim pode valer a pena usar herança. Se não use associação

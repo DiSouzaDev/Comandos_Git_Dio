@@ -1,0 +1,59 @@
+Triade de liderança
+Product Owner (P.O.) - Quem mais entende sobre o produto e que, decide o que a equipe de projetos irá fazer, e com qual prioridade.
+Scrum Master - Responsavel por blindar o time. Define uma lista de taresfas que o time irá atuar, somente com aquilo que foi planejado para o time não sair do foco. Facilita a comunicação do time.
+Teach Lead - Atua acompanhando o time em todas as etapas técnicas (Upstream e Downstrean), assim como destravar umpedimentos técnicos.
+
+Time técnico
+Quality Analyst (QA) - É responsável por realizar testes de componente ou E2E com foco em validações funcionais e também apoiar e conduzir o time em testes e qualidades.
+
+Engenheiro de Software - Indentifica como tornar real a solicitação do PO, refinar a solução, desenvolver testes unitários, implantar, monitorar e corrigir possíveis bugs.
+
+User experience Design (UX) - Responsável por planejar e prototipar a melhor experiencia nas telas do sistema, com foco em usabilidade, utilidade e acessibilidade.
+
+Feature: São funcionalidades disponíveis ao cliente, recursos do software.
+Ex: Tranferência por TED, Pix, Doc.
+Bug: Erros que geram falhas ao clientes, problemas do software.
+Ex: Uma tela de load infinita.
+
+Upstream - Amadurecimento e validação das ideias antes de aplicá-las ao mundo real
+
+[Foto da mentoria 25:00]
+
+Um exemplo abaixo mostra um pedido do PO diante de uma necessidade para melhorar a qualidade de atendimento ao cliente, enquanto o engenheiro de software analisa o que será necessário para esse pedido se tornar aplicavel.
+
+[Foto mentoria 27:50]
+
+Downstrean - Mão na massa, execução do que foi definido, tornando o desejado em solução real.
+
+[Foto mentoria 31:00]
+[Foto mentoria 32:30]
+Acompanhem a explicação das etapas na mentoria
+
+Run - Gerenciando o sistemas
+Monitoração de Dashboards
+Gestão de incidentes
+Manutenção e compilance
+
+Performace - desempenho do software
+
+Desempenho - Comparação entre o resultado desejado e o alcançado
+
+Performance - Resultado ao corrigir erros de desempenho passados
+
+O que se espera?
+Execução correta do software e em tempo adequado mesmo em seu período de volume máximo de requisições.
+
+Identificar problemas de performace
+Teste de carga - entender quantos acessos ao mesmo tempo o sistema aguenta
+Teste de estresse - Como o sistema se comporta mesmo após o limite ser escedido
+teste de duração - Submeter o sistema a uma quantidade de submições de forma continua sem pausas
+teste de pico/spike - como o sistema se comporta com muitas requisições em um curto período de tempo
+teste de volume - O serviço comporta a quantidade de dados que serão usados?
+teste de escalabilidade - Parecido com o teste de pico, analisa como o sistema se comporta quando há um grande volume de requisições e quando há uma baixo número de requisições.
+
+Ferramentas de incidentes: dinatrace - grafana - Apache JMeter k6 webload (Teste de carga)
+
+Sugestões de Livros:
+Tire seu projeto do papel com SCRUM
+testes de software
+14 hábitos de desenvolvedores altamente produtivos

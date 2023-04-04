@@ -11,7 +11,7 @@ git push origin master -- Empurra o arquivo para o repositório github
 git pull origin master -- Puxa o arquivo para mais recente do repositório github
 --rebase -- evita o git merge message
 --allow-unrelated-histories -- Corrige o erro de refusing
-git clone "url" -- faz um clone do seu repositd ório do github
+git clone "url" -- faz um clone do seu repositório do github
 
 Mudar de Master para Main e vice versa:
-git branch -m master main | git branch -m main master 
+git branch -m master main | git branch -m main master

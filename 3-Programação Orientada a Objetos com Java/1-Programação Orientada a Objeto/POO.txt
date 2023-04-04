@@ -1,0 +1,43 @@
+Por que usar?
+A POO tem uma representação mais realista, por que possúi mecanismos que reperesentam de forma mais realista o mundo real.
+
+Ela foca na modelagem de entidades e na interação entre ela.
+
+Vantagens:
+Maior coesão - o códico see torna mais objetivo
+Melhor acoplamento - se tornam flexiveis para conseuir alterá-los
+Diminuição do Gap semântico - Diferença de representação entre o mundo da computação e o mundo real
+Coletor de lixo - automaticamente limpa a memória do computador para evitar que a memória encha de objetos que não são usados
+
+Fundamentos
+Foca mais em o que você quer resolver. Entender sua necessidade
+
+Os três pilares da POO:
+Abstração - processo ao qual se isolam caracteristicas de um objeto, considerando os que tenham em comum certos grupos de objetos.
+
+Se preocupa com o excensial, com o que será mais reusado
+
+Reuso - capacidade de criar novas unidades de código a partir de outras já existentes
+
+Encapsulamento - capacidade de esconder complexidades e proteger dados
+
+Estruturas básicas da OO:
+
+Classe - Estrutura que abstrai um conjunto de objetos com caracteristicas similares. Define o comportamento de seus objétos através de atributos. Ela serve de molde para abstrair objetos. Substantivos.
+Atributo - Elemento de uma classe responsável por definir sua estrutura de dados. O conjunto destes será resonsável por representar suas características e fará parte dos objetos criados a partir da classe
+	Atributo é próprio e peculiar a alguém ou alguma coisa.
+	Variável é sujeito a variações ou mudanças; que pode variar; inconstante, instável
+Método - Uma porção de código (sub-rotina) disponibilizada pela classe. executado quando é feita uma requisição a ele. Um métdo serve para identificar quais os servços, ações que a classe oferece. Verbos.
+	Construtor - Efetua a construção do método
+	Destrutor - Auxilia na destruição de um método
+	Sobrecarga - Muda a assinatura (Nome + parâmetros) de acordo com a necessidade
+Objeto - Representação de um conceito/entidade do mundo real, que pode ser física ou conceitual e possúi um significado bem definido para um determinado software.
+Mensagem - Processo de ativação de um método de um objeto. Ocorre quando uma requisição a esse método é realizada, disparando a execução de seu comportamento descrito na classe.
+
+Interessante estudar:
+Instãncia x Estático: atributos e métodos
+Estado de um Objeto
+Identidade de um Objeto
+Representação de um objeto
+representação númerica de um objeto
+Representação padrão de um objeto

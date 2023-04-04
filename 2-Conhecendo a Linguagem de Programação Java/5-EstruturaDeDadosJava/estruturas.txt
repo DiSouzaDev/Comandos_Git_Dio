@@ -26,3 +26,52 @@ Métodos:
 .enqueue() -- Adiciona um novo nó na fila e referencia a entrada da fila como sendo atrás dele
 .dequeue() -- Tira o primeiro da fila e nó anterior é aponta para nulo
 .isEmpty() -- Mostra se a fila está vazia
+
+Lista Encadeada
+.Add() -- Adiciona um novo novo nó na lista
+.Remove() -- Retira um nó da lista e aponta a referencia do nó atrás para o a frente que foi retirado
+.get() -- Pega uma referencia do nó sem exclui-lo da lista
+
+Lista Duplamente Encadeada
+.add(el);
+.add(index, el);
+.remove(index);
+.get()		
+
+Livro: Lógica de programação e estruturas de dados
+
+Listas Circulares
+.isEmpty()
+.size()
+.getNo()
+.get()
+.remove()
+.add()
+.toString()
+
+Árvores
+Estrutura de dados bidimencional
+Não linear
+
+Exemplos de uso:
+Sistemas de arquivos
+bancos de dados
+Interfaces gráficas
+páginas web
+
+Árvore Binária - posição dos nós
+Maiores à esquerda
+Menores à direita
+
+Exclusão da raiz:
+Pega o aior elemento da esquerda, isso guarante que ele seja maior que qualquer outro nó a esquerda e menor que a raiz
+
+Tipos de atravessamento:
+In-ordem - mostra os dados em ordem crescente
+pré-ordem - primeiro mostra depois entra no nó
+pós-ordem - entra até o menor valor dentro da subarvore à esquerda da raiz e mostra o do menor para o maior, depois entra na subárvore a direita e faz o mesmo.
+
+Equals() e HashCode()
+
+Melhorar a busca de objetos
+Devem ser implementados juntos

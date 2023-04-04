@@ -1,0 +1,8 @@
+V - public, protected ou private
+T - concreto ou abstrato
+M - static ou final
+R - tipo de dado ou void
+N - nome que é fornecido ao método
+P - parâmetros que pode receber
+E - exceções que pode lançar
+C - código que possui ou vazio
