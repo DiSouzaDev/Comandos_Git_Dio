@@ -1,0 +1,16 @@
+Componentes do DynamoDB
+Tabelas: semelhante a outros sisteas de bancos de dados, o DynamoDB armazena dados em tabelas. Uma tabela é uma coleção de dados.
+
+Itens: Cada tabela contém zero ou mais itens. Um item é um grupo de atributos identificáveil exclusivamente entre todos os outros itens.
+
+Atributos: Cada item é composto de um ou mais atributos. Um atributo é um elemento de dados fundamental, algo que não precisa ser dividido ainda mais.
+
+Chave primária: identifica exclusivamente cada item na tabela, de modo que não possa haver dois itens com a mesma chave. Possui dois tipos de chaves primárias:
+- Partition key: uma chave primária simples com o valor da chave sendo a entrada para uma função de hash interna.
+- Partition key + sort key: uma chave primária composta de dois atributos. A tabela pode ter uma partition key não única, mas a combinação das caves deve ser única.
+
+Índices secundários: permite consultar oa dados na tabela usado uma chave alternativa, além de fazer consultas em relação à chave primária.
+
+O DynamoDB é compatível com dois tipos de índices:
+Índice secundario global: possui uma chave de partição e uma chave de classificação que podem ser diferentes das contidas na tabela.
+Índice secundario local: possui uma mesma chave de partição da tabela, mas uma chave de classificação diferente.

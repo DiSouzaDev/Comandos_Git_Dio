@@ -1,0 +1,20 @@
+Arquivo em formato XML que é a raiz ou coração do seu projeto
+
+Repositório remoto
+Site: maven central
+
+Adicionando dependencias
+na teg <dependency> você pode adicionar novas dependencias usando as tags <groupId> <artifactId> e <version> para funcionar
+
+Depois de adicionar as dependencias, basta ir até o terminar para compilar o seu projeto maven com o comando:
+mvn compile
+
+Tipos de dependencias
+Dependencia pacivel de uso - usando a dependencia Gson e o comando mvn install podemos publicar nosso projeto maven
+
+Direta: declaradas no pom.xml
+Transitiva: dependências obrigatórias das dependências declaradas no pom.xml
+
+Ficar atento com os problema de dependecias transitivas
+
+mvn archetype:generate -DgroupId=com.nomeDoPackage -DartifactId=quick-start-maven -Daechetype=maven-archetype-quickstart -DinteractiveMode=false

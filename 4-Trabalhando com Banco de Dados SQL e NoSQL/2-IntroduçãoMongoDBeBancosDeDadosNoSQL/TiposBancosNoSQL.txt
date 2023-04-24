@@ -1,0 +1,42 @@
+Baseados a documentos - Json, xml ou qualquer outro documento
+
+chave-valor - usado em forma de cash ou outro valor
+
+orientado a colunas - o que menos apresenta diferença dos bancos de dados relacionais
+
+orientados a grafos - sado muito em redes sociais e em detecção de fraudes
+
+Grafos - Composto por nós (dados) e vértices (Relacionamentos)
+Exemplo: neo4j - https://sandbox.neo4j.com/
+
+Comandos base
+Criando um nó:
+create (:Client {name: "Bob Esponja", age: 28, hobbies: ["Caçar aguas vivas, comer hamburguer"]});
+
+Buscando um nó:
+match (bob_esponja) return bob_esponja
+match (todos) return todos;
+
+Criando um relacionamento:
+create (:Client {name: "Lula Molusco", age: 30, hobbies: ["Tocar clarinete"]}) -[:Bloqueado]-->(:Client {name: "Lula Molusco", hobbies: ["Caçar agua viva"]});
+
+Deletando um relacionamento:
+match (lula:client {name: "Lula Molusco"})-[relaciona:Bloquado]-() delete relaciona;
+
+Deletando um nó:
+match (lula:client {name: "Lula Molusco"}) delete lula;
+
+Atualizar nó:
+match (patrick:Client {name: "Patrick"}) set patrick.hobbies = ['Caçar agua viva'];
+
+Adicionar uma label:
+match (patrick:Client {name: "Patrick"}) set patrick.Client_Premium;
+
+Coluna/Família de colunas
+Banco de dados Cassandra.
+
+Chave valor
+Um banco de dados não relacional de chave-valor usa esse método simples para armazenar dados. Um banco de dados de chave-valor armazena os dados como um conjunto de pares de chave-valor em que uma chave funciona como um identificador exclusivo. A chave e os valores podem ser qualquer coisa, desde objetos simples até objetos compostos complexos. Bancos de dados de chave-valor são altamente particionáveis e permitem escalabilidade horizontal que outros tipos de bancos de dados não conseguem alcançar. Por exemplo, o Amazon DynamoDB alocará partições adicionais a uma tabela se uma partição existente for preenchida até o limite de capacidade e mais espaço de armazenamento for necessário.
+
+Documentos
+Banco de dados MongoDB.

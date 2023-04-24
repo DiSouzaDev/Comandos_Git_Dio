@@ -1,0 +1,21 @@
+Windows:
+Baixar o apache maven no site oficial
+Entrar em painel de controle
+Sistemas e segurança > Sistemas > Configurações avançadas do sistema > Variáveis de Ambiente
+Em seguida veja o na parte inferior com o título Variáveis do sistema
+Encontre a variável Path e abra
+Clique em novo e coloque como referencia a url que mande para a pasta maven até a pasta bin
+Exemplo: C:\Users\usuario\dev\Maven\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin
+
+Linux:
+Baixar o apache maven no site oficial
+Entre no terminal, em seguida na pasta de downloads
+Descompacte o arquivo Maven com o comando: 
+tar xf nome_da_pasta
+Mova a pasta para seu repositório com o comando: 
+mv nome_do_arquivo ../nome_da_pasta_escolhida/
+
+Depois de fazer as verificações necessárias para a instalação, abra o arquivo bashrc, lembrando que ele é um arquivo oculto e para velo basta precionar Ctrl + H.
+Na última linha escreva:
+export PATH=/caminho/da/pasta/maven/bin;$PATH
+salve e feche.

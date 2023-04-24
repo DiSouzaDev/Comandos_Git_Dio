@@ -1,0 +1,25 @@
+O que são
+Chamados também de testes de unidade, é uma maneira de testar a menor unidade de código possível, testa a aplicação em sua menos parte, geralmente escrito em tempo de desenvolvimento.
+Unidade: função, método, casses.
+
+Por que escrever
+Compreender o codigo fonte
+Corrigir bugs com segurança
+Refatorar código sem introduzir bugs
+Entregar com segurança uma nova feature
+
+After e before
+BeforeAll - Teste antes de efetuar os testes
+Test - Testes principais com liberação de recursos
+AfterAll - Testes após os testes principais
+
+Boas práticas importantes
+Preocupe-se com os nomes
+Preocupe-se com a facilidade de leitura
+procure escrever o codigo de teste o mais próximo possível do código de execução
+Veja um pouco de TDD
+Comece a testar cedo
+Busque padronização com nomenclaturas
+Economize tempo automatizando
+ferramentas de cobertura de código (Jacoco)
+Automatize a execução dos seus testes

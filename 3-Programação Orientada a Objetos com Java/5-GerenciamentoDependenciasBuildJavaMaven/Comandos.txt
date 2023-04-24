@@ -1,0 +1,21 @@
+Abrindo um projeto pela linha de comando
+Acesse a pasta do seu projeto e execute o seguinte comando
+C:\user\usuario\pastaProjeto\projects>mvn archetype:generate -DgroupId=com.nomeDoPackage -DartifactId=quick-start-maven -Daechetype=maven-archetype-quickstart -DinteractiveMode=false
+
+Comandos que auxiliam no dia a dia
+Compilar:
+C:\user\usuario\pastaProjeto\projects>mvn compile
+
+Testar: 
+C:\user\usuario\pastaProjeto\projects>mvn test
+
+Empacotar:
+C:\user\usuario\pastaProjeto\projects>mvn package
+
+Limpar:
+C:\user\usuario\pastaProjeto\projects>mvn clean
+
+Criando diferentes tipos de projetos
+Pesquise na internet por "maven archetype list" para encontrar a opção que faz mais sentido para seu projeto.
+
+Dica: procure os archetypes na web, no git hub ou no site MVNrepositore, existem diversos tipos.

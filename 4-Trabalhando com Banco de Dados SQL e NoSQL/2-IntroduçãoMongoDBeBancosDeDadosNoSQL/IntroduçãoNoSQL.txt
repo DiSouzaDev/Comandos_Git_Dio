@@ -1,0 +1,33 @@
+Not Only SQL - Não apenas SQL
+
+Diferenças BD Relacional x BD NoSQL
+
+Escalabilidade:
+Banco SQL - Vertical e alguns na Horizontal (Usados para leitura de dados)
+
+Schema rígidos, com o SQL como linguagem de consulta
+
+Benefícios - Possúi uma estrutura mais organizada e regrada, com uma consistencia maior.
+
+Banco NoSQL - Nativamente Horizontal
+
+Particionando os dados (sharding) entre os nós é o mais conhecido. Possui escalabilidade infinita conforme o ambiente.
+
+Ausencia completa (ou quase) de regras de schema, mas é claro, existem boas práticas para ter os dados performáticos
+
+Benefícios - permitem armazenar informação estruturada, semiestruturada e não estruturada, assim oferecem maior liberdade e flexibilidade ao administrador quanto aos usos feitos do banco. Possuem maior disponibilidade e alto desempenho.
+
+Flexibilidade
+Escalabilidade
+Alta performace
+
+Transações - BD Relacional
+Atomicidade - Ou uma transação é executada por completa, ou ela não é executada.
+Consistência - Quando uma transação é concluida, seu banco de dados vai estar em conformidade com o schema introduzido.
+Isolamento - Uma transação não afeta outra transação.
+Durabilidade - Uma vez que uma transação for concluida, seu dado jamais será perdido.
+
+BD NoSQL - Não tem essa ideia de transação (somente o MongoDB utiliza)
+Basically Available - Prioridade na disponibilização de dados
+Soft-State - Ele não precisa ser consistente o tempo todo
+Eventually Consistent - Será consistente em um tempo indeterminado

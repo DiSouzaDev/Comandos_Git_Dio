@@ -1,0 +1,58 @@
+Em banco de dados é importante entender se você possui permissão de acesso aos dados, ou mais, se você tem permissão para dar um statement.Se atentar se a sintaxe está correta é muito importante, e aos erros semanticos também.
+
+Sublinguagens
+DDL - Data Definition Language
+Create | Drop | Alter
+Insert | Update | Delete
+Rename | Truncate | Merge
+
+Determina quais os usuários que terão acesso ao banco de dados, garantindo os privilégios deles.
+Cria esquema e define os statements ao banco de dados e cuida de questões relacionadoos a indexação. (Quais dados precisam ter um acesso mais direto)
+
+DML - Data Manipulation Language
+Insert | Update
+Delete | Merge
+
+A sublinguagem que a maioria dos usuarios irá utilizar para ter acesso aos dados do banco de dados.
+É necesário restringir a manipulação do usuário em relação ao que ele pode modificar no banco.
+
+DCL - Data Control Language
+Grant | Revoke
+
+Fornece e remove privilégios a usuários específicos
+
+DQL - Data Query Language
+Select
+
+Encontra dados no banco de dados.
+
+O que é um statement
+São comandos reconhecidos pelo banco de dados. Com um retorno de determinada informação (Registro de dados)
+
+O que são Cláusuças SQL
+São as instruçãoes de um comando, sendo algumas delas obrigatórias.
+
+Exemplos de cláusulas
+Select
+From
+Where
+
+Order By
+Group By
+Having
+
+O que são Termos
+Identificador
+Operador
+Constante
+Expressão
+
+Retire a ambiguidade  através do comando alias ou AS Statement
+
+Comandos para aprender
+SMALLINT UNSIGNED
+ENUM
+CONSTRAINT
+SMALLINT UNSIGNED
+ALL || DISTINCT
+CASCADE

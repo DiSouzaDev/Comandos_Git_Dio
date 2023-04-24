@@ -1,0 +1,17 @@
+PK inexistente - Quando a chave primária está duplicada
+FK inexistente - Quando a chave estrangeira falha
+Violação de valores - Quando se insere um determinado tipo de dado, e acaba-se violando alguma condição
+Conversão inválida - Quando tentamos converter valores com formatos padrões diferentes
+
+Em tecnologias de banco de dados, um rollback é uma operação que retorna o banco de dados a algum estado anterior. As reversões são importantes para a integridade do banco de dados, pois significam que o banco de dados pode ser restaurado para uma cópia limpa mesmo após a execução de operações incorretas.
+
+MySQL - Site Oficial
+https://www.mysql.com/
+PostgreSQL - Site Oficial
+https://www.postgresql.org/
+SQLFiddle - Ambiente online para testar consultas SQL
+http://sqlfiddle.com/
+W3Schools - Tutorial SQL
+https://www.w3schools.com/sql/
+SQLZoo - Aprenda SQL com exercícios interativos
+https://sqlzoo.net/wiki/SQL_Tutorial

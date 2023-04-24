@@ -1,0 +1,7 @@
+O que é o apache Maven?
+Ferramenta para gerenciar build e dependências de um projeto.
+
+Ele endereça como o software foi construído e suas depenencias através do POM (Project Object Model), que é basicamente o coração do projeto Maven. Fornece informações de qualidade.
+
+Qual problema ele resolve?
+O maven veio para auxiliar a empacotar nossa aplicação em um formato específico, compilar todas os nossas fontes e executar todos os nossos testes, assim como outras funcionalidades.
