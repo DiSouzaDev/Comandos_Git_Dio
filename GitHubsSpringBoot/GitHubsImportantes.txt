@@ -1,0 +1,23 @@
+willy sobre a aula de testes
+https://github.com/willyancaetano/junit5-exemplos
+
+camila sobre exceptions
+https://github.com/cami-la/exceptions-java
+
+camila sobre POO
+https://github.com/cami-la/desafio-poo-dio
+
+Gleyson sobre springboot
+https://github.com/digitalinnovationone/dio-springboot
+
+Spring Boot
+https://spring.io/guides
+
+Spring Boot Explicações
+https://glysns.gitbook.io/spring-framework/
+
+Principais mudanças do Spring Security
+https://www.mballem.com/post/spring-security-6-e-spring-boot-3/
+
+Postman
+https://www.postman.com/downloads/

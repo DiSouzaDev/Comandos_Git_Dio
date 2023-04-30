@@ -1,0 +1,8 @@
+Enquanto que o Spring framework é baseada em no padrão de injeção de dependências, o Springboot foca na configuração automática.
+
+@Autowride
+@Conponent
+@Configuration
+@ConfigurationComponents(prefix = "algum prefixo")
+@Scope
+@Query

@@ -1,0 +1,20 @@
+ORM - Object Relational Mapping
+Mapeamento objeto-relacional, é um recurso para aproximar o paradigma da orientação a objetos ao contexto de banco de dados relacional. É utilizado através do mapeamento de um objeto para uma tabela por uma biblioteca ou framework.
+
+JPA - Java Package A
+É uma especificação baseada em interfaces, que através de um framework realiza operações de persistência de objetos em java.
+
+JPA - Implementações
+Hiberbate
+Eclipse link
+Top link
+Open JPA
+
+Mapeamento - Aspectos das anotações de mapeamento do JPA
+Identificação - A classe deve ter uma identificação
+Definição - A classe deve ter uma definição, e elas estão muito ligadas com as DDL
+Relacionamento - Aplica relacionameto entre nossas entiadades (nossas tabelas)
+Herança - Realiza operações para manter a do nosso banco de dados
+Persistência - anotações de persistência.
+
+Spring Data JPA

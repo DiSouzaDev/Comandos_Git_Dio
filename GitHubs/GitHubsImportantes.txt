@@ -1,8 +1,0 @@
-willy sobre a aula de testes
-https://github.com/willyancaetano/junit5-exemplos
-
-camila sobre exceptions
-https://github.com/cami-la/exceptions-java
-
-camila sobre POO
-https://github.com/cami-la/desafio-poo-dio
