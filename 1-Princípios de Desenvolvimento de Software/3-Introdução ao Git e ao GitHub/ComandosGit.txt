@@ -1,5 +1,5 @@
 git config --global core.editor "code --wait" -- muda o editor padrão do git
-git config --globalinit.defaultBranch main -- muda o branch principal de master paa main de vez
+git config --global init.defaultBranch main -- muda o branch principal de master paa main de vez
 
 git init -- começa a gerenciar e a vercionar nosso código
 flag -a -- mostra arquivos ocultos
