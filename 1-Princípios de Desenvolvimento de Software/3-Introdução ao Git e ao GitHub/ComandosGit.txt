@@ -4,6 +4,7 @@ git config --global init.defaultBranch main -- muda o branch principal de master
 git init -- começa a gerenciar e a vercionar nosso código
 flag -a -- mostra arquivos ocultos
 git tag -a v1.0.0 -m "mensagem aqui" -- cria uma flag com a verção atual e o que foi implementado nela
+git tag -a v1.0.0 -d -- deleta a tag
 git add * -- adiciona tudo dentro do commit
 git commit -m "commit inicial" -- Para fazer o commit e para explicar o que foi feito
 git status -- mostra em que situação está o arquivo
